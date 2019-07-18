@@ -33,12 +33,15 @@ if (!isset($_POST["submit"])) { ?>
     <meta charset="utf-8">
     <title>FinCludeSecure Int. Limited</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
+    <meta  name="keywords" content="Financial Inclusion, Digital Payments, Product Design, Project Management, Financial Services, Banks, Gender equality, ">
     <meta content="" name="description">
+    <meta name="author" content="FinCLudeSecure International">
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/apple-touch-icon.png" sizes="114 x 114"rel="apple-touch-icon" />
+    <link href="images/apple-touch-icon.png" sizes="144 x 144"rel="apple-touch-icon" />
+
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
@@ -48,12 +51,13 @@ if (!isset($_POST["submit"])) { ?>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css" rel="stylesheet">
-
+    
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+    
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css" rel="stylesheet">
+    
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Libraries CSS Files -->
@@ -67,10 +71,10 @@ if (!isset($_POST["submit"])) { ?>
 
 <body style="background-color: rgba(240, 240, 240, 100%); font-family: 'Tw Cen MT';">
 
-    <div class="container">
+    <div class="">
         <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <div class="pull-left">
+                <div class="">
                     <a class="navbar-brand" href="#">
                         <img src="/images/logo.png" height="40px" alt="Fincludesecure International">
                     </a>
@@ -80,19 +84,19 @@ if (!isset($_POST["submit"])) { ?>
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav navbar-override">
-                        <li class="nav-item active ">
-                            <a class="nav-link  link-text" href="#"> Home
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link  link-text" href="index.html"> Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-text " href="#About-Us"> About
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link link-text" href="#About-Us"> About
                                 Us </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a class="nav-link  link-text" href="#Contact-Us"> Contact
                                 Us </a>
                         </li>
@@ -142,9 +146,9 @@ if (!isset($_POST["submit"])) { ?>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-carousel-img img-fluid" src="/images/image4.png" alt="">
-                    <div class="d-none d-md-block text-block">
-                        <h3 class="font-weight-bold text-primary mt-2">Insight</h3>
-                        <p class="mt-1">Picture this; A micro-transactions of $5 in remote Kaura-Namoda in Nigeria
+                    <div class="d-none d-md-block text-block mb-0">
+                        <h3 class="font-weight-bold text-primary mb-1">Insight</h3>
+                        <p class="">Picture this; A micro-transactions of $5 in remote Kaura-Namoda in Nigeria
                             between herders is facilitated by channels made available by a firm willing to extend her
                             services to the hinterland. It would simply revolutionize how we do business.
                         </p>
@@ -231,7 +235,7 @@ if (!isset($_POST["submit"])) { ?>
                         programs for organizations and
                         governments.
                     </p>
-                    <p class="font-weight-bold font-italic text-center mb-5 mx-3" style="font-size: 20px;">With our
+                    <p class="font-weight-bold text-center mb-5 mx-3" style="font-size: 20px;">With our
                         bias, we strive to contribute to the social economics of countries in which we operate
                         as a supporter of sustainable growth and national development.
                     </p>
@@ -354,10 +358,10 @@ if (!isset($_POST["submit"])) { ?>
 
         <div class="row">
             <div class="col-lg-4 mb-2">
-                <div class="card" style="height: 450px !important;">
-                    <img class="inner" src="/images/Digital Payment.png" alt="Digital Payments">
-                    <div class="card-body mt-5">
-                        <h4 class="card-title mt-5 header">Digital Payments</h4>
+                <div class="card services-h"  >
+                    <img class="inner mt-icon-services" src="/images/Digital Payment.png" alt="Digital Payments">
+                    <div class="card-body mt-5  mt-lg-screen-cardbody">
+                        <h4 class="card-title header">Digital Payments</h4>
                         <p class="card-text" style="text-align: justify"> Product Design
                             To improve the living conditions and standards for humanity; a human being at a time, by
                             promoting financial inclusion and proper gender representation in capacity and nation
@@ -369,11 +373,11 @@ if (!isset($_POST["submit"])) { ?>
                 </div>
             </div>
             <div class="col-lg-4 mb-2">
-                <div class="card" style="height: 450px !important;">
-                    <img class="inner" src="/images/Financial services.png" alt="Digital Financial Services">
-                    <div class="card-body mt-5">
-                        <h4 class="card-title mt-5 header">Digital Financial Services</h4>
-                        <p class="card-text" style="text-align: justify">
+                <div class="card services-h"  >
+                    <img class="inner mt-icon-services" src="/images/Financial services.png" alt="Digital Financial Services">
+                    <div class="card-body mt-5  mt-lg-screen-cardbody">
+                        <h4 class="card-title header">Digital Financial Services</h4>
+                        <p class="card-text mt-2" style="text-align: justify">
                             Product Design
                             To improve the living conditions and standards for humanity; a human being at a time, by
                             promoting financial inclusion and proper gender representation in capacity and nation
@@ -385,10 +389,10 @@ if (!isset($_POST["submit"])) { ?>
                 </div>
             </div>
             <div class="col-lg-4  mb-2">
-                <div class="card" style="height: 450px !important;">
-                    <img class="inner" src="/images/Project Management.png" alt="Project Management">
-                    <div class="card-body mt-5">
-                        <h4 class="card-title mt-5 header">Project Management</h4>
+                <div class="card services-h"  >
+                    <img class="inner mt-icon-services" src="/images/Project Management.png" alt="Project Management">
+                    <div class="card-body mt-5  mt-lg-screen-cardbody">
+                        <h4 class="card-title header">Project Management</h4>
                         <p class="card-text" style="text-align: justify">Product Design
                             To improve the living conditions and standards for humanity; a human being at a time, by
                             promoting financial inclusion and proper gender representation in capacity and nation
@@ -396,7 +400,7 @@ if (!isset($_POST["submit"])) { ?>
                             We believe that when the significant population are serviced financially; particularly the
                             woman or girl child, then a sustainable economic growth and development can be achieved.
                         </p>
-                    </div>
+                    </div>   
                 </div>
             </div>
         </div>
@@ -406,10 +410,10 @@ if (!isset($_POST["submit"])) { ?>
 
         <div class="row">
             <div class="col-lg-4 mb-2">
-                <div class="card" style="height: 450px !important;">
-                    <img class="inner" src="/images/product design.png" alt="Product Design">
-                    <div class="card-body mt-5">
-                        <h4 class="card-title mt-5 header">Product Design</h4>
+                <div class="card services-h"  >
+                    <img class="inner mt-icon-services" src="/images/product design.png" alt="Product Design">
+                    <div class="card-body mt-5  mt-lg-screen-cardbody">
+                        <h4 class="card-title header">Product Design</h4>
                         <p class="card-text" style="text-align: justify">
                             Product Design
                             To improve the living conditions and standards for humanity; a human being at a time, by
@@ -422,10 +426,10 @@ if (!isset($_POST["submit"])) { ?>
                 </div>
             </div>
             <div class="col-lg-4 mb-2">
-                <div class="card" style="height: 450px !important;">
-                    <img class="inner" src="/images/advisory.png" alt="Advisory and Strategy Consulting">
-                    <div class="card-body mt-5">
-                        <h4 class="card-title mt-5 header text-center">Advisory and Strategy Consulting</h4>
+                <div class="card services-h"  >
+                    <img class="inner mt-icon-services" src="/images/advisory.png" alt="Advisory and Strategy Consulting">
+                    <div class="card-body mt-5  mt-lg-screen-cardbody">
+                        <h4 class="card-title header text-center">Advisory and Strategy Consulting</h4>
                         <p class="card-text text-justify">
                             Product Design
                             To improve the living conditions and standards for humanity; a human being at a time, by
@@ -438,10 +442,10 @@ if (!isset($_POST["submit"])) { ?>
                 </div>
             </div>
             <div class="col-lg-4 mb-2">
-                <div class="card" style="height: 450px !important;">
-                    <img class="inner" src="/images/market research.png" alt="Market Research">
-                    <div class="card-body mt-5">
-                        <h4 class="card-title mt-5 header">Market Research</h4>
+                <div class="card services-h"  >
+                    <img class="inner mt-icon-services" src="/images/market research.png" alt="Market Research">
+                    <div class="card-body mt-5  mt-lg-screen-cardbody">
+                        <h4 class="card-title header">Market Research</h4>
                         <p class="card-text" style="text-align: justify">
                             Product Design
                             To improve the living conditions and standards for humanity; a human being at a time, by
@@ -531,7 +535,7 @@ if (!isset($_POST["submit"])) { ?>
                 </form>
 
                 <div class="text-center text-md-left">
-                    <a class="btn btn-outline-primary" style="width: 100px !important; border-radius: 100px !important;"
+                    <a class="btn btn-outline-primary font-weight-bold" style="border-radius: 100px !important;"
                         onclick="document.getElementById('contact-form').submit();">Send</a>
                 </div>
                 <div class="status"></div>
@@ -548,8 +552,8 @@ if (!isset($_POST["submit"])) { ?>
                     How can we help your business growth&quest;
                     Find out how FinCludeSecure International can help your business.
                 </p>
-                <a href="http://" class="btn btn-outline-light mb-2"
-                    style="border-radius: 100px; width: 70%; color: #ffffff !important;">Submit RFP</a>
+                <a href="http://" class="btn btn-outline-light mb-2 font-weight-bold"
+                    style="border-radius: 100px; width: 70%; color: #ffffff !important;">Submit &nbsp; RFP</a>
             </div>
             <!--Grid column-->
         </div>
@@ -587,7 +591,8 @@ if (!isset($_POST["submit"])) { ?>
                             <div><a class='icon social sl' href="https://www.fincludesecure.slack.com"  target="_blank" rel="noopener noreferrer"><i class='fa fa-slack'></i></a></div>
                         </div>
                     </div>
-
+                    
+                    <a href="http://"  rel="noopener noreferrer"></a>
                     <div class="col-md-4">
                         <h4>Quick Links</h4>
                         <a href="#">Submit RFP</a>
@@ -638,12 +643,13 @@ if (!isset($_POST["submit"])) { ?>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous">
     </script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <!-- mdb Javascript Libraries -->
     <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
     </script>
@@ -653,10 +659,10 @@ if (!isset($_POST["submit"])) { ?>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js">
     </script>
+    <!-- applying cookies notification -->
+    <script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js"></script>
 
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
+    <!-- Designed and Developed by David Dennis [UI/UX Designer &  DevOps Engineer @ Fincludesecure International Ltd. July, 2019] -->
 </body>
 
 </html>
