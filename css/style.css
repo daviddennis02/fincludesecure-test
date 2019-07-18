@@ -20,16 +20,32 @@ html {
         height: 50% !important;
     }
 
-    .navbar-override{
+    /* .navbar-override{
         display: flex; 
         align-items: center;
         margin-bottom: 0px !important;
         margin-left: 0px !important;
-    }
+    } */
 
+    .services-h {
+        height: 100% !important;
+    }
 
 } 
 
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      .mt-lg-screen-cardbody {
+        margin-top: 80px !important;
+      }
+
+      .mt-icon-services {
+        margin-top: 10px;
+      }
+}
 
 @include media-breakpoint-up(sm) {
     html {
@@ -49,7 +65,9 @@ html {
     }
 }
 
-
+.services-h {
+    height: 450px !important;
+}
 
 .bg-about{
     background-color: #008fdc;
@@ -119,12 +137,12 @@ html {
     font-size: 24px;
 }
 
-.navbar-override{
+/* .navbar-override{
     display: flex; 
     align-items: center;
     margin-bottom: 10px;
      margin-left: 450px;
-}
+} */
 
 .navbar-light {
     background-color: #ffffff !important;
@@ -156,7 +174,7 @@ html {
 
 
 .header {
-    margin-top: 5px;
+    margin-top: 10px;
     color: #008fdc !important;
     text-align: center;
     font-weight: 500;
@@ -165,11 +183,11 @@ html {
 
 /* ------------------------------------------------------------------------------------ */
 .inner {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: #FFFFFF;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -278,6 +296,15 @@ hr {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
 }
+/* .icon.social a {
+    background: #008fdc;
+    color: #ffffff;
+}  */
+
+ /* .icon.social a:hover {
+    background: #ffffff;
+    color: #008fdc;
+} */
 
 .icon.social:hover {
     background: #ffffff;
@@ -298,14 +325,35 @@ hr {
     top: 10px;
 }
 
+/* .icon.social.fb a{
+    text-decoration:none;
+    border:none;
+    color: transparent;
+} */
+
 .icon.social.tw i {
     left: 11px;
 }
+            /* .icon.social.tw a{
+                text-decoration:none;
+                border:none;
+                color: transparent !important;
+            } */
 
 .icon.social.in i {
     left: 11px;
 }
+/* .icon.social.in a{
+    text-decoration:none;
+    border:none;
+    color: transparent;
+} */
 
 .icon.social.sl i {
     left: 11px;
 }
+/* .icon.social.sl a{
+            text-decoration:none;
+            border:none;
+            color: transparent;
+        } */
