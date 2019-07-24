@@ -1,0 +1,379 @@
+body {
+    font-family: "Tw Cen MT", ;
+    font-size: 18px;
+
+}
+
+
+html {
+    font-size: 18px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .text-about-mg {
+        margin: 0px 0px 0px 0px !important;
+    }
+
+    .h-carousel-img {
+        height: 50% !important;
+    }
+
+    /* .navbar-override{
+        display: flex; 
+        align-items: center;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    } */
+
+    .services-h {
+        height: 100% !important;
+    }
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .mt-lg-screen-cardbody {
+        margin-top: 15px !important;
+    }
+
+    .mt-icon-lg-screen {
+        margin-top: 20px !important;
+    }
+
+
+    .inner {
+        width: 80px;
+        height: 80px;
+        background-color: transparent;
+        position: relative;
+        top: 12% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 10px !important;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+.services-h {
+    height: 100% !important;
+}
+
+.bg-about {
+    background-color: #008fdc;
+}
+
+
+.bg-mission {
+    background-color: #a9e1ff;
+}
+
+.text-white {
+    background-color: #ffffff;
+}
+
+.text-primary {
+    color: #008FDC !important;
+}
+
+.h-carousel-img {
+    height: 500px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+    height: 40%;
+}
+
+.extra-arrow-down {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    left: 50%;
+    margin-left: -26px;
+    margin-top: -1px;
+    z-index: 25;
+    margin-bottom: -25px;
+    clear: both;
+}
+
+.extra-arrow-inner {
+    position: absolute;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    top: -39px;
+    background-color: #a9e1ff;
+}
+
+.extra-arrow-outer {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* ------------------------------------------------------------------------------------- */
+.nav-item a:hover {
+    color: #008fdc6e;
+    font-family: 'Tw Cen MT';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* .navbar-override{
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+     margin-left: 450px;
+} */
+
+.navbar-light {
+    background-color: #ffffff !important;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: transparent;
+}
+
+.link-text {
+    color: #008fdc !important;
+    font-size: 24px;
+
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.footer-end {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #1c2331 !important;
+    color: #ffffff !important;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.header {
+    margin-top: 10px;
+    color: #008fdc !important;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+/* ------------------------------------------------------------------------------------ */
+.inner {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px !important;
+}
+
+/* --------------------------------about us---------------------------- */
+.text-about-mg {
+    margin: 0px 100px 0px 100px;
+}
+
+
+.about-us-row {
+
+    padding: 10px 30px 25px 30px;
+    margin-top: 3px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(51, 51, 51, 0.17);
+    -moz-box-shadow: -1px 0px 0px 0px rgba(51, 51, 51, 0.17);
+    box-shadow: outset -1px px 0px 0px rgba(51, 51, 51, 0.17);
+}
+
+
+.section-about-us {
+
+    margin: 30px 0px 30px 0px;
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+hr {
+    position: relative;
+    width: 100%;
+    height: 41px;
+    left: 0px;
+    background: #008FDC;
+}
+
+.hr-services {
+
+    margin-top: 0rem;
+    margin-bottom: .5rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.904);
+
+}
+
+#column-effect {
+    border: 1px solid #eeeeee;
+    padding: 7px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    background-color: #ffffff !important;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+/* ------------------------------------------------------------------------------------- */
+.our-channel {
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.our-channel-title {
+    text-align: left;
+}
+
+.icon {
+    position: relative;
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -khtml-border-radius: 20px 20px 20px 20px;
+    color: #FFFFFF;
+}
+
+.icon i {
+    font-size: 20px;
+    position: absolute;
+    left: 9px;
+    top: 10px;
+}
+
+.icon.social {
+    float: left;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    background: #008fdc;
+    color: #ffffff;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/* .icon.social a {
+    background: #008fdc;
+    color: #ffffff;
+}  */
+
+/* .icon.social a:hover {
+    background: #ffffff;
+    color: #008fdc;
+} */
+
+.icon.social:hover {
+    background: #ffffff;
+    color: #008fdc;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-filter: drop-shadow(0 1px 10px rgba(0, 143, 220, .8));
+    -moz-filter: drop-shadow(0 1px 10px rgba(0, 143, 220, .8));
+    -ms-filter: drop-shadow(0 1px 10px rgba(0, 143, 220, .8));
+    -o-filter: drop-shadow(0 1px 10px rgba(0, 143, 220, .8));
+    filter: drop-shadow(0 1px 10px rgba(0, 143, 220, .8));
+}
+
+.icon.social.fb i {
+    left: 13px;
+    top: 10px;
+}
+
+/* .icon.social.fb a{
+    text-decoration:none;
+    border:none;
+    color: transparent;
+} */
+
+.icon.social.tw i {
+    left: 11px;
+}
+
+/* .icon.social.tw a{
+                text-decoration:none;
+                border:none;
+                color: transparent !important;
+            } */
+
+.icon.social.in i {
+    left: 11px;
+}
+
+/* .icon.social.in a{
+    text-decoration:none;
+    border:none;
+    color: transparent;
+} */
+
+.icon.social.sl i {
+    left: 11px;
+}
+
+/* .icon.social.sl a{
+            text-decoration:none;
+            border:none;
+            color: transparent;
+        } */
